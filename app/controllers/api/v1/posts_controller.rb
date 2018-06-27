@@ -1,3 +1,5 @@
+module Api::V1
+
 class PostsController < ApplicationController
     
     def index 
@@ -5,5 +7,6 @@ class PostsController < ApplicationController
         render json: @posts 
     end
 
+end
 
 end
